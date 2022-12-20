@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1 style="color: white; text-align: center; padding-top: 10px;">Calculator</h1>
+    <h2 class="content">
+      Don't try hard calculating, just leave the Math to me... 😉
+    </h2>
+    <div class="calc">
+      <input type="text" value="" id="screen"></input>
+      <div class="divider"></div>
+      <div class="calc_buttons">
+        <button onclick="myFunction2('%')" class="calc_buttons_item">%</button>
+        <button onclick="myFunction3(1)"  class="calc_buttons_item">CE</button>
+        <button onclick="myFunction3(1)" class="calc_buttons_item">C</button>
+        <button onclick="myFunction3(2)" class="calc_buttons_item">⌫</button>
+        <button onclick="myFunction1(1)" class="calc_buttons_item">1/x</button>
+        <button onclick="myFunction1(2)" class="calc_buttons_item">x²</button>
+        <button onclick="myFunction1(3)" class="calc_buttons_item">√x</button>
+        <button onclick="myFunction2('/')" class="calc_buttons_item">÷</button>
+        <button onclick="myFunction2('7')" class="calc_buttons_item">7</button>
+        <button onclick="myFunction2('8')" class="calc_buttons_item">8</button>
+        <button onclick="myFunction2('9')" class="calc_buttons_item">9</button>
+        <button onclick="myFunction2('*')" class="calc_buttons_item">*</button>
+        <button onclick="myFunction2('4')" class="calc_buttons_item">4</button>
+        <button onclick="myFunction2('5')" class="calc_buttons_item">5</button>
+        <button onclick="myFunction2('6')" class="calc_buttons_item">6</button>
+        <button onclick="myFunction2('-')" class="calc_buttons_item">-</button>
+        <button onclick="myFunction2('1')" class="calc_buttons_item">1</button>
+        <button onclick="myFunction2('2')" class="calc_buttons_item">2</button>
+        <button onclick="myFunction2('3')" class="calc_buttons_item">3</button>
+        <button onclick="myFunction2('+')" class="calc_buttons_item">+</button>
+        <button onclick="myFunction2('+')" class="calc_buttons_item">+/-</button>
+        <button onclick="myFunction2('0')" class="calc_buttons_item">0</button>
+        <button onclick="myFunction2('.')" class="calc_buttons_item">.</button>
+        <button onclick="myFunction()" class="calc_buttons_item">=</button>
+      </div>
+    </div>
+  </body>
+</html>
